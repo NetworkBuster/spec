@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Chrome debugger (use `pwa-chrome` in newer VS Code versions if available)
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome (pwa) against localhost",
+            "url": "http://networkbuster.net",
+            "webRoot": "${workspaceFolder}/networkbuster.net",
+            // Uncomment and set if you want VS Code to start a specific Chrome binary
+            // "runtimeExecutable": "/usr/bin/google-chrome-stable",
+            // Additional flags useful for debugging in containers or remote envs:
+            // "runtimeArgs": ["--remote-debugging-port=9222","--no-first-run","--no-default-browser-check"]
+        },
+        {
+            // Attach to an existing Chrome instance with --remote-debugging-port=9222
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome (remote) on port 9222",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/networkbuster.net"
+        },
+        {
+            // Use this to launch Microsoft Edge (Chromium) if preferred
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://networkbuster.net",
+            "webRoot": "${workspaceFolder}/networkbuster.net",
+        }
+    ]
+}
