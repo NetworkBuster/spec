@@ -1,4 +1,7 @@
 /.vscode/
+# Keep general .vscode ignored, but allow committing the launch configuration
+.vscode/*
+!.vscode/launch.json
 node_modules/
 dist/
 build/
