@@ -1,4 +1,40 @@
-# Development Containers
+# NASA Luna Recycle Challenge — NetworkBuster
+
+Authors: Andrew T. Middleton (NetworkBuster) <andrew@networkbuster.net>
+
+Project for the NASA Luna Recycle Challenge. This repository contains the source, documentation and contributor materials for NetworkBuster's submission to the challenge.
+
+## About
+
+This project is a prototype system and research effort to help meet the goals of the NASA Luna Recycle Challenge. It contains design notes, code samples, integration guidance and the legal/third-party notices necessary to distribute the software.
+
+## Status
+
+- Draft / Initial repository scaffold
+- License: Apache License 2.0 (see `LICENSE`)
+
+## Repository layout
+
+- `src/` — source code and prototypes
+- `docs/` — design notes and supporting documentation
+- `THIRD_PARTY_NOTICES.md` — third-party dependencies & license information
+- `CONTRIBUTING.md` — contribution guide and CLA information
+- `CONTRIBUTOR_LICENSE_AGREEMENT.md` — contributor agreement template
+- `.github/` — issue and PR templates
+
+## How to contribute
+
+See `CONTRIBUTING.md` for contribution process, code of conduct, and CLA instructions. Major contributions should include an updated `THIRD_PARTY_NOTICES.md` entry for any new dependency and explicit license verification.
+
+## Contact
+
+Andrew T. Middleton — NetworkBuster
+
+Email: andrew@networkbuster.net
+
+## License
+
+This project is licensed under the Apache License, Version 2.0. See `LICENSE` for details.# Development Containers
 
 This repository is for the Development Container Specification. You can check out the spec on our website https://containers.dev/ too.
 

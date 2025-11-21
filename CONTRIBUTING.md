@@ -1,3 +1,23 @@
+# Contributing
+
+Thanks for your interest in contributing to NetworkBuster's entry for the NASA Luna Recycle Challenge.
+
+Before contributing please:
+
+1. Read the `CODE_OF_CONDUCT.md` and abide by it.
+2. Confirm you are willing to license your contributions under the project's license (Apache-2.0).
+3. If making a non-trivial contribution, sign the `CONTRIBUTOR_LICENSE_AGREEMENT.md` and submit it to the repository owner (see contact in `README.md`).
+4. Update `THIRD_PARTY_NOTICES.md` for any new dependency you add and include upstream license text under `docs/third-party/` as necessary.
+
+Submitting changes
+
+- Fork the repository and open a pull request against `main`.
+- For large or design-affecting changes, open an Issue first to discuss.
+- Include tests or a reproducible demo when possible.
+
+CLA / Contributor Agreement
+
+We ask contributors to sign a simple contributor license agreement. A template is provided in `CONTRIBUTOR_LICENSE_AGREEMENT.md`. Signing helps simplify redistribution and compliance when submitting code that might be included in public releases.
 # How to Contribute to the Dev Container Specification
 
 We're excited for your contributions to the dev container specification! This document outlines how you can get involved. 
